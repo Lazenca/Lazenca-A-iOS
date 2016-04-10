@@ -7,7 +7,7 @@ iOS Memory Cheat Tool(Engine)
 * Process : Output Process List
 * Attach : ex) attach < pid >
 * Search : ex) search < number >
-* Write : ex) write <Address(Hex to Decimal)> <number>
+* Write : ex) write < Address(Hex to Decimal) > < number >
 * Showlist : Output Searched Value List
 * Clear : data clear(search data)
 * Exit 
