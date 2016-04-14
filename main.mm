@@ -6,6 +6,7 @@
 #import "MemoryCheat.h"
 #import "RunningProces.h"
 #import "Process.h"
+#import "Thread.h"
 #import "Write.h"
 #import "Util.h"
 
@@ -61,9 +62,21 @@ int main(int argc, char **argv, char **envp) {
                 sscanf(command2,"%ld",&address);
                 sscanf(command3,"%ld",&value);
                 MemoryWrite(address,value);
+            //THREAD CONTROL
+            }else if(!strcmp(CONTROL,strupr(command1))){
+                thread_t target_thread;
+                sscanf(command3,"%u",&target_thread);
+                if(!strcmp(ENABLE,strupr(command2))){
+                    resumeThread(target_thread);
+                }else if(!strcmp(DISABLE,strupr(command2))){
+                    suspendThread(target_thread);
+                }
             //Find data list
             }else if(!strcmp(SHOWLIST,strupr(command1))){
                 showDataList();
+            //Thread list
+            }else if(!strcmp(THREADLIST,strupr(command1))){
+                showThreadList();
             //Clear data list
             }else if(!strcmp(CLEAR,strupr(command1))){
                 MemoryClear();

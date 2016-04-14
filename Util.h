@@ -1,6 +1,7 @@
 #include <vector>
 #include <mach/mach.h>
 
+
 /*
  * Command Input
  */
@@ -25,8 +26,12 @@
 #define ATTACH "ATTACH"
 #define CONTROL "CONTROL"
 #define SHOWLIST "SHOWLIST"
+#define THREADLIST "THREADLIST"
+#define CONTROL "CONTROL"
 #define PICK "PICK"
 #define CLEAR "CLEAR"
+#define ENABLE "ENABLE"
+#define DISABLE "DISABLE"
 #define EXIT "EXIT"
 
 /*
