@@ -17,9 +17,9 @@ iOS Memory Cheat Tool(Engine)
 * Threadlist : Output Thread List
 * Control : Control Individual Thread 
 
->>Option : Enable(resume), Disable(suspend)
+>Option : Enable(resume), Disable(suspend)
 
->>ex) CONTROL < option > < thread id >
+>ex) CONTROL < option > < thread id >
 
 * Clear : data clear(search data)
 * Exit 
