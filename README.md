@@ -15,9 +15,12 @@ iOS Memory Cheat Tool(Engine)
 * Write : ex) write < Address(Hex to Decimal) > < number >
 * Showlist : Output Searched Value List
 * Threadlist : Output Thread List
-* CONTROL : Control Individual Thread
-** Option : Enable(resume), Disable(suspend)
-** ex) CONTROL <option> <thread id>
+* Control : Control Individual Thread 
+
+>>Option : Enable(resume), Disable(suspend)
+
+>>ex) CONTROL < option > < thread id >
+
 * Clear : data clear(search data)
 * Exit 
 
