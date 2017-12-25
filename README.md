@@ -21,12 +21,9 @@ iOS Memory Cheat Tool(Engine)
 * Clear : data clear(search data)
 * Exit 
 
-## 3.Game Security Guide
-Site : [Lazenca D](http://greycheatinglab.com/)
-
-## 4.Lazenca A (AOS ver.)
+## 3.Lazenca A (AOS ver.)
 Site : [Lazenca A(aos ver.)](https://github.com/Lazenca/Lazenca-A-Andoird)
 
-## 5.Lazenca S (Anti Cheat Code)
+## 4.Lazenca S (Anti Cheat Code)
 Site : [Lazenca S(aos ver.)](https://github.com/Lazenca/Lazenca-S)
 
